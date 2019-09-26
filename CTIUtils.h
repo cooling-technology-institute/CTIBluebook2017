@@ -134,7 +134,7 @@ double SIPws (double tair);
 double SIDEWPoint (double p, double TWB, double TDB, double HumidRatio);
 double KAVL(double T1, double T2, double WBT, double LG);
 
-double abs(double dblNum);
+//double abs(double dblNum);
 
 double Pstd(double Z);
 #define Tboil	(double)212.0

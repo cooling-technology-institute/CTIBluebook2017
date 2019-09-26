@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{088AF083-2C3B-4211-9CE1-E58EE8EC9C08}</ProjectGuid>
+    <RootNamespace>CTI2017</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Image Include="res\256logo.bmp" />
+    <Image Include="res\BWLOGO.BMP" />
+    <Image Include="res\colorlogo.bmp" />
+    <Image Include="res\CTI Demo.ico" />
+    <Image Include="res\CTI DemoDoc.ico" />
+    <Image Include="res\CTI DemoOld.ico" />
+    <Image Include="res\graph.bmp" />
+    <Image Include="res\install.ico" />
+    <Image Include="res\splash.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\CTI Demo.rc2" />
+    <None Include="res\cursor1.cur" />
+    <None Include="res\Hand.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="areaseries.h" />
+    <ClInclude Include="arrowseries.h" />
+    <ClInclude Include="ASPECT.H" />
+    <ClInclude Include="AXES.H" />
+    <ClInclude Include="AXIS.H" />
+    <ClInclude Include="axislabels.h" />
+    <ClInclude Include="axistitle.h" />
+    <ClInclude Include="barseries.h" />
+    <ClInclude Include="BRUSH.H" />
+    <ClInclude Include="bubbleseries.h" />
+    <ClInclude Include="candleseries.h" />
+    <ClInclude Include="CANVAS.H" />
+    <ClInclude Include="cdxCSizingDialog.h" />
+    <ClInclude Include="cerror.h" />
+    <ClInclude Include="chartfont.h" />
+    <ClInclude Include="CTI BlueBook.h" />
+    <ClInclude Include="CTIHELP.HH" />
+    <ClInclude Include="CTIUtils.h" />
+    <ClInclude Include="curvefittingfunction.h" />
+    <ClInclude Include="customseries.h" />
+    <ClInclude Include="errorbarseries.h" />
+    <ClInclude Include="expavgfunction.h" />
+    <ClInclude Include="EXPORT.H" />
+    <ClInclude Include="fastlineseries.h" />
+    <ClInclude Include="ganttseries.h" />
+    <ClInclude Include="GRADIENT.H" />
+    <ClInclude Include="horizbarseries.h" />
+    <ClInclude Include="IMPORT.H" />
+    <ClInclude Include="LEGEND.H" />
+    <ClInclude Include="ListCtrl.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MARKS.H" />
+    <ClInclude Include="movingavgfunction.h" />
+    <ClInclude Include="PAGE.H" />
+    <ClInclude Include="PANEL.H" />
+    <ClInclude Include="PEN.H" />
+    <ClInclude Include="pieseries.h" />
+    <ClInclude Include="POINTER.H" />
+    <ClInclude Include="pointseries.h" />
+    <ClInclude Include="polarseries.h" />
+    <ClInclude Include="PRINTER.H" />
+    <ClInclude Include="PrintFrame.h" />
+    <ClInclude Include="PrintList.h" />
+    <ClInclude Include="PrintPerfReport.h" />
+    <ClInclude Include="PrintView.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ROWLIST.H" />
+    <ClInclude Include="SCROLL.H" />
+    <ClInclude Include="SERIES.H" />
+    <ClInclude Include="shapeseries.h" />
+    <ClInclude Include="Splash.h" />
+    <ClInclude Include="StaticHyperLink.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="STRINGS.H" />
+    <ClInclude Include="surfaceseries.h" />
+    <ClInclude Include="TCHART.H" />
+    <ClInclude Include="TeeChartDefines.h" />
+    <ClInclude Include="teefunction.h" />
+    <ClInclude Include="TITLES.H" />
+    <ClInclude Include="TMultiEdit.h" />
+    <ClInclude Include="TNewDemandCurveDataDlg.h" />
+    <ClInclude Include="TNewFlowRateDlg.h" />
+    <ClInclude Include="TNewPerformanceDataFileDlg.h" />
+    <ClInclude Include="TNewTestDlg.h" />
+    <ClInclude Include="ToolkitDoc.h" />
+    <ClInclude Include="TPerformanceCurveDlg.h" />
+    <ClInclude Include="TPerformanceDataDlg.h" />
+    <ClInclude Include="TPrint.h" />
+    <ClInclude Include="TPrintPerfReportDlg.h" />
+    <ClInclude Include="TPropPageBase.h" />
+    <ClInclude Include="TPropPageFour.h" />
+    <ClInclude Include="TPropPageOne.h" />
+    <ClInclude Include="TPropPageThree.h" />
+    <ClInclude Include="TPropPageTwo.h" />
+    <ClInclude Include="TPropPageZero.h" />
+    <ClInclude Include="TTowerPerformanceFile.h" />
+    <ClInclude Include="valuelist.h" />
+    <ClInclude Include="volumeseries.h" />
+    <ClInclude Include="WALL.H" />
+    <ClInclude Include="WALLS.H" />
+    <ClInclude Include="ZOOM.H" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="areaseries.cpp" />
+    <ClCompile Include="arrowseries.cpp" />
+    <ClCompile Include="ASPECT.CPP" />
+    <ClCompile Include="AXES.CPP" />
+    <ClCompile Include="AXIS.CPP" />
+    <ClCompile Include="axislabels.cpp" />
+    <ClCompile Include="axistitle.cpp" />
+    <ClCompile Include="barseries.cpp" />
+    <ClCompile Include="BRUSH.CPP" />
+    <ClCompile Include="bubbleseries.cpp" />
+    <ClCompile Include="candleseries.cpp" />
+    <ClCompile Include="CANVAS.CPP" />
+    <ClCompile Include="cdxCSizingDialog.cpp" />
+    <ClCompile Include="CError.cpp" />
+    <ClCompile Include="chartfont.cpp" />
+    <ClCompile Include="CTI BlueBook.cpp" />
+    <ClCompile Include="CTIUtils.cpp" />
+    <ClCompile Include="curvefittingfunction.cpp" />
+    <ClCompile Include="customseries.cpp" />
+    <ClCompile Include="errorbarseries.cpp" />
+    <ClCompile Include="expavgfunction.cpp" />
+    <ClCompile Include="EXPORT.CPP" />
+    <ClCompile Include="fastlineseries.cpp" />
+    <ClCompile Include="ganttseries.cpp" />
+    <ClCompile Include="GRADIENT.CPP" />
+    <ClCompile Include="horizbarseries.cpp" />
+    <ClCompile Include="IMPORT.CPP" />
+    <ClCompile Include="LEGEND.CPP" />
+    <ClCompile Include="ListCtrl.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MARKS.CPP" />
+    <ClCompile Include="movingavgfunction.cpp" />
+    <ClCompile Include="PAGE.CPP" />
+    <ClCompile Include="PANEL.CPP" />
+    <ClCompile Include="PEN.CPP" />
+    <ClCompile Include="pieseries.cpp" />
+    <ClCompile Include="POINTER.CPP" />
+    <ClCompile Include="pointseries.cpp" />
+    <ClCompile Include="polarseries.cpp" />
+    <ClCompile Include="PRINTER.CPP" />
+    <ClCompile Include="PrintFrame.cpp" />
+    <ClCompile Include="PrintList.cpp" />
+    <ClCompile Include="PrintPerfReport.cpp" />
+    <ClCompile Include="PrintView.cpp" />
+    <ClCompile Include="ROWLIST.CPP" />
+    <ClCompile Include="SCROLL.CPP" />
+    <ClCompile Include="series.cpp" />
+    <ClCompile Include="shapeseries.cpp" />
+    <ClCompile Include="Splash.cpp" />
+    <ClCompile Include="StaticHyperLink.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="STRINGS.CPP" />
+    <ClCompile Include="surfaceseries.cpp" />
+    <ClCompile Include="tchart.cpp" />
+    <ClCompile Include="teefunction.cpp" />
+    <ClCompile Include="TITLES.CPP" />
+    <ClCompile Include="TMultiEdit.cpp" />
+    <ClCompile Include="TNewDemandCurveDataDlg.cpp" />
+    <ClCompile Include="TNewFlowRateDlg.cpp" />
+    <ClCompile Include="TNewPerformanceDataFileDlg.cpp" />
+    <ClCompile Include="TNewTestDlg.cpp" />
+    <ClCompile Include="ToolkitDoc.cpp" />
+    <ClCompile Include="TPerformanceCurveDlg.cpp" />
+    <ClCompile Include="TPerformanceDataDlg.cpp" />
+    <ClCompile Include="TPrint.cpp" />
+    <ClCompile Include="TPrintPerfReportDlg.cpp" />
+    <ClCompile Include="TPropPageBase.cpp" />
+    <ClCompile Include="TPropPageFour.cpp" />
+    <ClCompile Include="TPropPageOne.cpp" />
+    <ClCompile Include="TPropPageThree.cpp" />
+    <ClCompile Include="TPropPageTwo.cpp" />
+    <ClCompile Include="TPropPageZero.cpp" />
+    <ClCompile Include="TTowerPerformanceFile.cpp" />
+    <ClCompile Include="valuelist.cpp" />
+    <ClCompile Include="volumeseries.cpp" />
+    <ClCompile Include="WALL.CPP" />
+    <ClCompile Include="WALLS.CPP" />
+    <ClCompile Include="ZOOM.CPP" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CTI Demo.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
