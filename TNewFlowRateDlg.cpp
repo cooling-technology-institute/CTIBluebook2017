@@ -2,7 +2,7 @@
 //
 
 #include "stdafx.h"
-#include "cti BlueBook.h"
+#include "CTIBlueBook.h"
 #include "TNewFlowRateDlg.h"
 
 #ifdef _DEBUG

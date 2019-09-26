@@ -2,7 +2,7 @@
 //
 
 #include "stdafx.h"
-#include "cti BlueBook.h"
+#include "CTIBlueBook.h"
 #include "PrintPerfReport.h"
 
 #ifdef _MFC_PREVIEW

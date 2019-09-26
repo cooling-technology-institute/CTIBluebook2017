@@ -2,7 +2,7 @@
 //
 
 #include "stdafx.h"
-#include "cti bluebook.h"
+#include "CTIBluebook.h"
 #include "PrintList.h"
 #include "series.h"
 #include "valuelist.h"

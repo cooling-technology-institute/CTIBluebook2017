@@ -68,7 +68,7 @@
 #include "afxext.h"
 #include "stdafx.h"
 #include "CError.h"
-#include "CTI BlueBook.h"
+#include "CTIBlueBook.h"
 #include "ctiutils.h"
 #include "PrintList.h"
 #include "TPrint.h"

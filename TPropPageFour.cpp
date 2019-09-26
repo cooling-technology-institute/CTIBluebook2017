@@ -1,7 +1,7 @@
 // TPropPageFour.cpp : implementation file
 //
 #include "stdafx.h"
-#include "CTI BlueBook.h"
+#include "CTIBlueBook.h"
 #include "TPropPageBase.h"
 #include "TPropPageFour.h"
 #include "TPerformanceDataDlg.h"

@@ -2,7 +2,7 @@
 //
 
 #include "stdafx.h"
-#include "CTI BlueBook.h"
+#include "CTIBlueBook.h"
 #include "StaticHyperLink.h"
 
 #ifdef _DEBUG

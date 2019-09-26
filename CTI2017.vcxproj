@@ -147,7 +147,7 @@
     <ClInclude Include="cdxCSizingDialog.h" />
     <ClInclude Include="cerror.h" />
     <ClInclude Include="chartfont.h" />
-    <ClInclude Include="CTI BlueBook.h" />
+    <ClInclude Include="CTIBlueBook.h" />
     <ClInclude Include="CTIHELP.HH" />
     <ClInclude Include="CTIUtils.h" />
     <ClInclude Include="curvefittingfunction.h" />
@@ -230,7 +230,7 @@
     <ClCompile Include="cdxCSizingDialog.cpp" />
     <ClCompile Include="CError.cpp" />
     <ClCompile Include="chartfont.cpp" />
-    <ClCompile Include="CTI BlueBook.cpp" />
+    <ClCompile Include="CTIBlueBook.cpp" />
     <ClCompile Include="CTIUtils.cpp" />
     <ClCompile Include="curvefittingfunction.cpp" />
     <ClCompile Include="customseries.cpp" />

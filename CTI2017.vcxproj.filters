@@ -103,7 +103,7 @@
     <ClInclude Include="chartfont.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CTI BlueBook.h">
+    <ClInclude Include="CTIBlueBook.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CTIHELP.HH">
@@ -489,7 +489,7 @@
     <ClCompile Include="CTIUtils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CTI BlueBook.cpp">
+    <ClCompile Include="CTIBlueBook.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="chartfont.cpp">

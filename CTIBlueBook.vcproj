@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="8.00"
-	Name="CTI BlueBook"
+	Name="CTIBlueBook"
 	ProjectGUID="{1660334D-6771-40FC-84B0-159158006D15}"
-	RootNamespace="CTI BlueBook"
+	RootNamespace="CTIBlueBook"
 	Keyword="MFCProj"
 	>
 	<Platforms>
@@ -17,8 +17,8 @@
 	<Configurations>
 		<Configuration
 			Name="Demo Debug|Win32"
-			OutputDirectory=".\Demo\Debug"
-			IntermediateDirectory=".\Demo\Debug"
+			OutputDirectory="Demo\Debug"
+			IntermediateDirectory="Demo\Debug"
 			ConfigurationType="1"
 			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
 			UseOfMFC="1"
@@ -42,7 +42,7 @@
 				MkTypLibCompatible="true"
 				SuppressStartupBanner="true"
 				TargetEnvironment="1"
-				TypeLibraryName=".\Demo\Debug/CTIBlueBook.tlb"
+				TypeLibraryName="Demo\Debug/CTIBlueBook.tlb"
 				HeaderFileName=""
 			/>
 			<Tool
@@ -52,10 +52,10 @@
 				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_DEMO_VERSION"
 				MinimalRebuild="true"
 				RuntimeLibrary="1"
-				PrecompiledHeaderFile=".\Demo\Debug/CTIBlueBook.pch"
-				AssemblerListingLocation=".\Demo\Debug/"
-				ObjectFile=".\Demo\Debug/"
-				ProgramDataBaseFileName=".\Demo\Debug/"
+				PrecompiledHeaderFile="Demo\Debug/CTIBlueBook.pch"
+				AssemblerListingLocation="Demo\Debug/"
+				ObjectFile="Demo\Debug/"
+				ProgramDataBaseFileName="Demo\Debug/"
 				BrowseInformation="1"
 				WarningLevel="4"
 				SuppressStartupBanner="true"
@@ -80,7 +80,7 @@
 				SuppressStartupBanner="true"
 				AdditionalLibraryDirectories="C:\Program Files\HTML Help Workshop\lib"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile=".\Demo\Debug/CTIDemo.pdb"
+				ProgramDatabaseFile="Demo\Debug/CTIDemo.pdb"
 				SubSystem="2"
 				TargetMachine="1"
 			/>
@@ -113,8 +113,8 @@
 		</Configuration>
 		<Configuration
 			Name="PerfCurve Release|Win32"
-			OutputDirectory=".\PerfCurve\Release"
-			IntermediateDirectory=".\PerfCurve\Release"
+			OutputDirectory="PerfCurve\Release"
+			IntermediateDirectory="PerfCurve\Release"
 			ConfigurationType="1"
 			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
 			UseOfMFC="1"
@@ -138,7 +138,7 @@
 				MkTypLibCompatible="true"
 				SuppressStartupBanner="true"
 				TargetEnvironment="1"
-				TypeLibraryName=".\PerfCurve\Release/CTIBlueBook.tlb"
+				TypeLibraryName="PerfCurve\Release/CTIBlueBook.tlb"
 				HeaderFileName=""
 			/>
 			<Tool
@@ -147,10 +147,10 @@
 				AdditionalIncludeDirectories="C:\Program Files\HTML Help Workshop\include"
 				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_PERF_CURVE_ONLY"
 				RuntimeLibrary="0"
-				PrecompiledHeaderFile=".\PerfCurve\Release/CTIBlueBook.pch"
-				AssemblerListingLocation=".\PerfCurve\Release/"
-				ObjectFile=".\PerfCurve\Release/"
-				ProgramDataBaseFileName=".\PerfCurve\Release/"
+				PrecompiledHeaderFile="PerfCurve\Release/CTIBlueBook.pch"
+				AssemblerListingLocation="PerfCurve\Release/"
+				ObjectFile="PerfCurve\Release/"
+				ProgramDataBaseFileName="PerfCurve\Release/"
 				BrowseInformation="1"
 				WarningLevel="4"
 				SuppressStartupBanner="true"
@@ -173,7 +173,7 @@
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
 				AdditionalLibraryDirectories="C:\Program Files\HTML Help Workshop\lib"
-				ProgramDatabaseFile=".\PerfCurve\Release/CTIPerfCurve.pdb"
+				ProgramDatabaseFile="PerfCurve\Release/CTIPerfCurve.pdb"
 				SubSystem="2"
 				TargetMachine="1"
 			/>
@@ -206,8 +206,8 @@
 		</Configuration>
 		<Configuration
 			Name="Debug|Win32"
-			OutputDirectory=".\Toolkit\Debug"
-			IntermediateDirectory=".\Toolkit\Debug"
+			OutputDirectory="Toolkit\Debug"
+			IntermediateDirectory="Toolkit\Debug"
 			ConfigurationType="1"
 			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
 			UseOfMFC="1"
@@ -231,7 +231,7 @@
 				MkTypLibCompatible="true"
 				SuppressStartupBanner="true"
 				TargetEnvironment="1"
-				TypeLibraryName=".\Toolkit\Debug/CTIBlueBook.tlb"
+				TypeLibraryName="Toolkit\Debug/CTIBlueBook.tlb"
 				HeaderFileName=""
 			/>
 			<Tool
@@ -241,10 +241,10 @@
 				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS"
 				MinimalRebuild="true"
 				RuntimeLibrary="1"
-				PrecompiledHeaderFile=".\Toolkit\Debug/CTIBlueBook.pch"
-				AssemblerListingLocation=".\Toolkit\Debug/"
-				ObjectFile=".\Toolkit\Debug/"
-				ProgramDataBaseFileName=".\Toolkit\Debug/"
+				PrecompiledHeaderFile="Toolkit\Debug/CTIBlueBook.pch"
+				AssemblerListingLocation="Toolkit\Debug/"
+				ObjectFile="Toolkit\Debug/"
+				ProgramDataBaseFileName="Toolkit\Debug/"
 				BrowseInformation="1"
 				WarningLevel="4"
 				SuppressStartupBanner="true"
@@ -264,12 +264,12 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="version.lib htmlhelp.lib"
-				OutputFile="Toolkit\Debug\CTIToolkit.exe"
+				OutputFile="Toolkit\Debug\CTIBlueBook.exe"
 				LinkIncremental="2"
 				SuppressStartupBanner="true"
 				AdditionalLibraryDirectories="C:\Program Files\HTML Help Workshop\lib"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile=".\Toolkit\Debug/CTIToolkit.pdb"
+				ProgramDatabaseFile="Toolkit\Debug/CTIBlueBook.pdb"
 				SubSystem="2"
 				TargetMachine="1"
 			/>
@@ -285,7 +285,7 @@
 			<Tool
 				Name="VCBscMakeTool"
 				SuppressStartupBanner="true"
-				OutputFile="Toolkit\Debug\CTIToolkit.bsc"
+				OutputFile="Toolkit\Debug\CTIBlueBook.bsc"
 			/>
 			<Tool
 				Name="VCFxCopTool"
@@ -302,8 +302,8 @@
 		</Configuration>
 		<Configuration
 			Name="Demo Release|Win32"
-			OutputDirectory=".\Demo\Release"
-			IntermediateDirectory=".\Demo\Release"
+			OutputDirectory="Demo\Release"
+			IntermediateDirectory="Demo\Release"
 			ConfigurationType="1"
 			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
 			UseOfMFC="1"
@@ -327,7 +327,7 @@
 				MkTypLibCompatible="true"
 				SuppressStartupBanner="true"
 				TargetEnvironment="1"
-				TypeLibraryName=".\Demo\Release/CTIBlueBook.tlb"
+				TypeLibraryName="Demo\Release/CTIBlueBook.tlb"
 				HeaderFileName=""
 			/>
 			<Tool
@@ -336,10 +336,10 @@
 				AdditionalIncludeDirectories="C:\Program Files\HTML Help Workshop\include"
 				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_DEMO_VERSION"
 				RuntimeLibrary="0"
-				PrecompiledHeaderFile=".\Demo\Release/CTIBlueBook.pch"
-				AssemblerListingLocation=".\Demo\Release/"
-				ObjectFile=".\Demo\Release/"
-				ProgramDataBaseFileName=".\Demo\Release/"
+				PrecompiledHeaderFile="Demo\Release/CTIBlueBook.pch"
+				AssemblerListingLocation="Demo\Release/"
+				ObjectFile="Demo\Release/"
+				ProgramDataBaseFileName="Demo\Release/"
 				WarningLevel="4"
 				SuppressStartupBanner="true"
 			/>
@@ -361,7 +361,7 @@
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
 				AdditionalLibraryDirectories="C:\Program Files\HTML Help Workshop\lib"
-				ProgramDatabaseFile=".\Demo\Release/CTIDemo.pdb"
+				ProgramDatabaseFile="Demo\Release/CTIDemo.pdb"
 				SubSystem="2"
 				TargetMachine="1"
 			/>
@@ -394,8 +394,8 @@
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
-			OutputDirectory=".\Toolkit\Release"
-			IntermediateDirectory=".\Toolkit\Release"
+			OutputDirectory="Toolkit\Release"
+			IntermediateDirectory="Toolkit\Release"
 			ConfigurationType="1"
 			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
 			UseOfMFC="1"
@@ -419,7 +419,7 @@
 				MkTypLibCompatible="true"
 				SuppressStartupBanner="true"
 				TargetEnvironment="1"
-				TypeLibraryName=".\Toolkit\Release/CTIBlueBook.tlb"
+				TypeLibraryName="Toolkit\Release/CTIBlueBook.tlb"
 				HeaderFileName=""
 			/>
 			<Tool
@@ -428,10 +428,10 @@
 				AdditionalIncludeDirectories="C:\Program Files\HTML Help Workshop\include"
 				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS"
 				RuntimeLibrary="0"
-				PrecompiledHeaderFile=".\Toolkit\Release/CTIBlueBook.pch"
-				AssemblerListingLocation=".\Toolkit\Release/"
-				ObjectFile=".\Toolkit\Release/"
-				ProgramDataBaseFileName=".\Toolkit\Release/"
+				PrecompiledHeaderFile="Toolkit\Release/CTIBlueBook.pch"
+				AssemblerListingLocation="Toolkit\Release/"
+				ObjectFile="Toolkit\Release/"
+				ProgramDataBaseFileName="Toolkit\Release/"
 				BrowseInformation="1"
 				WarningLevel="4"
 				SuppressStartupBanner="true"
@@ -450,11 +450,11 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="version.lib htmlhelp.lib"
-				OutputFile="Toolkit\Release\CTIToolkit.exe"
+				OutputFile="Toolkit\Release\CTIBlueBook.exe"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
 				AdditionalLibraryDirectories="C:\Program Files\HTML Help Workshop\lib"
-				ProgramDatabaseFile=".\Toolkit\Release/CTIToolkit.pdb"
+				ProgramDatabaseFile="Toolkit\Release/CTIBlueBook.pdb"
 				SubSystem="2"
 				TargetMachine="1"
 			/>
@@ -470,7 +470,7 @@
 			<Tool
 				Name="VCBscMakeTool"
 				SuppressStartupBanner="true"
-				OutputFile="Toolkit\Release\CTIToolkit.bsc"
+				OutputFile="Toolkit\Release\CTIBlueBook.bsc"
 			/>
 			<Tool
 				Name="VCFxCopTool"
@@ -487,8 +487,8 @@
 		</Configuration>
 		<Configuration
 			Name="PerfCurve Debug|Win32"
-			OutputDirectory=".\PerfCurve\Debug"
-			IntermediateDirectory=".\PerfCurve\Debug"
+			OutputDirectory="PerfCurve\Debug"
+			IntermediateDirectory="PerfCurve\Debug"
 			ConfigurationType="1"
 			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
 			UseOfMFC="1"
@@ -512,7 +512,7 @@
 				MkTypLibCompatible="true"
 				SuppressStartupBanner="true"
 				TargetEnvironment="1"
-				TypeLibraryName=".\PerfCurve\Debug/CTIBlueBook.tlb"
+				TypeLibraryName="PerfCurve\Debug/CTIBlueBook.tlb"
 				HeaderFileName=""
 			/>
 			<Tool
@@ -522,10 +522,10 @@
 				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_PERF_CURVE_ONLY"
 				MinimalRebuild="true"
 				RuntimeLibrary="1"
-				PrecompiledHeaderFile=".\PerfCurve\Debug/CTIBlueBook.pch"
-				AssemblerListingLocation=".\PerfCurve\Debug/"
-				ObjectFile=".\PerfCurve\Debug/"
-				ProgramDataBaseFileName=".\PerfCurve\Debug/"
+				PrecompiledHeaderFile="PerfCurve\Debug/CTIBlueBook.pch"
+				AssemblerListingLocation="PerfCurve\Debug/"
+				ObjectFile="PerfCurve\Debug/"
+				ProgramDataBaseFileName="PerfCurve\Debug/"
 				BrowseInformation="1"
 				WarningLevel="4"
 				SuppressStartupBanner="true"
@@ -550,7 +550,7 @@
 				SuppressStartupBanner="true"
 				AdditionalLibraryDirectories="C:\Program Files\HTML Help Workshop\lib"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile=".\PerfCurve\Debug/CTIPerfCurve.pdb"
+				ProgramDatabaseFile="PerfCurve\Debug/CTIPerfCurve.pdb"
 				SubSystem="2"
 				TargetMachine="1"
 			/>
@@ -1460,7 +1460,7 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="CTI BlueBook.cpp"
+				RelativePath="CTIBlueBook.cpp"
 				>
 				<FileConfiguration
 					Name="Demo Debug|Win32"
@@ -5073,7 +5073,7 @@
 				>
 			</File>
 			<File
-				RelativePath="CTI BlueBook.h"
+				RelativePath="CTIBlueBook.h"
 				>
 			</File>
 			<File

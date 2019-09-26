@@ -2,7 +2,7 @@
 //
 
 #include "stdafx.h"
-#include "CTI BlueBook.h"
+#include "CTIBlueBook.h"
 #include "PrintFrame.h"
 
 #ifdef _DEBUG

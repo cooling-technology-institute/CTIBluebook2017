@@ -60,9 +60,6 @@
     <ClCompile Include="chartfont.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CTI BlueBook.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="CTIUtils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -243,17 +240,12 @@
     <ClCompile Include="zoom.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="CTI Demo.rc">
+    <ClCompile Include="CTIBlueBook.cpp">
       <Filter>Source Files</Filter>
-    </ResourceCompile>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cdxCSizingDialog.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CTI BlueBook.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CTIUtils.h">
@@ -337,6 +329,9 @@
     <ClInclude Include="TTowerPerformanceFile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CTIBlueBook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Res\256logo.bmp">
@@ -377,5 +372,10 @@
     <None Include="res\Hand.cur">
       <Filter>Resource Files</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CTIDemo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

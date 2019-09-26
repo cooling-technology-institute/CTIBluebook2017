@@ -3,7 +3,7 @@
 
 #include "stdafx.h"
 #include <afxwin.h>
-#include "CTI BlueBook.h"
+#include "CTIBlueBook.h"
 #include "aspect.h"
 #include "axes.h"
 #include "axis.h"

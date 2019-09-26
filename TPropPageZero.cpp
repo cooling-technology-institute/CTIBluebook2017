@@ -16,7 +16,7 @@
 // 
 //---------------------------------------------------------------------
 #include "stdafx.h"
-#include "CTI BlueBook.h"
+#include "CTIBlueBook.h"
 #include "cdxCSizingDialog.h"
 #include "TPropPageZero.h"
 #include "TPropPageBase.h"
